@@ -2,7 +2,7 @@
 <link href="https://raw.githubusercontent.com/prakis/stringify.me-theme/master/main.css" rel="stylesheet">
 <div class="content">
     <div class="card">
-        <div class="firstinfo"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" />
+        <div class="firstinfo"><img src="{{basics.picture_fullpath}}" />
             <div class="profileinfo">
                 <h1>{{basics.name}}</h1>
                 <h3>{{basics.label}}</h3>
