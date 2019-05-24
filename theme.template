@@ -1,0 +1,30 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+<div class="content">
+    <div class="card">
+        <div class="firstinfo"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" />
+            <div class="profileinfo">
+                <h1>{{basics.name}}</h1>
+                <h3>{{basics.label}}</h3>
+                <p class="bio">{{basics.summary}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="badgescard"> 
+{{#basics.github}}
+<a class="btn btn-danger btn-sm" rel="publisher" href="{{basics.github}}">
+	<span class="fa fa-github"></span>
+</a>
+{{/basics.github}}
+{{#basics.twitter}}
+<a class="btn btn-danger btn-sm" rel="publisher" href="{{basics.twitter}}">
+	<span class="fa fa-twitter"></span>
+</a>
+{{/basics.twitter}}
+{{#basics.facebook}}
+<a class="btn btn-danger btn-sm" rel="publisher" href="{{basics.facebook}}">
+	<span class="fa fa-facebook"></span>
+</a>
+{{/basics.facebook}}
+    </div>
+</div>
