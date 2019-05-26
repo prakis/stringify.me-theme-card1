@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Testing template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+</head>
+
+<body onload="onLoad()">
+
+<div id="maindiv" style="height:100%;"></div>
+
+
+<script>
+function onLoad(){
+  fetch('profile.json')
+  .then((resp) => resp.json()) 
+  .then(function(profilejson) {
+	  fetch('template.html')
+	  .then((resp) => resp.text()) 
+	  .then(function(template) {
+			profilejson.basics.picture_fullpath = profilejson.basics.picture;
+			var __html = Mustache.render(template, profilejson);
+			document.getElementById("maindiv").innerHTML = __html;
+			
+		});
+    });
+}
+
+</script>
+
+</body>
+</html>
