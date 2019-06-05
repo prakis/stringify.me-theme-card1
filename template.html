@@ -16,7 +16,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     min-height: 100%;
-    background: #00bcd4;
+	
+	{{#theme.background-color}}
+		background-color: {{theme.background-color}};
+	{{/theme.background-color}}
+	{{^theme.background-color}}
+		background-color: #00bcd4;
+	{{/theme.background-color}}	
+	
     font-size: 16px;
     overflow: hidden;
 }
