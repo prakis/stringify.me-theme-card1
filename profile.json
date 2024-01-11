@@ -1,18 +1,18 @@
 {
 	"basics": {
-		"name": "Richard Feynman",
-		"label": "Physicist",
-		"picture": "profile.jpg",
-		"email": "prakis@gmail.com",
-		"phone": "(912) 98765-4321",
+		"name": "Sai Manasa Bala Somanchi",
+		"label": "Data Scientist",
+		"picture": "6112144_6194130690716373_7770029909079578737_n.jpg",
+		"email": "saimanasa.somanchi@gmail.com",
+		"phone": "+91 99164-06868",
 		"website": "https://reactdude.com/",
-		"twitter": "https://twitter.com/prakis",
-		"facebook": "https://www.facebook.com/Stringify.me",
-		"dribbble": "https://www.dribbble.com",
-		"github": "http://github.com/prakis",
-		"summary": "Theoretical physicist, known for his work in quantum mechanics, quantum electrodynamics and superfluidity of supercooled liquid helium."
+		"twitter": "https://twitter.com/ManasaSoma33710",
+		"facebook": "https://www.facebook.com/manasa.bala.73",
+		"github": "https://github.com/manasavamsi",
+		"summary": "Asipiring Data Scientist.Enthusiastic about Data Science & its numerous applications (<b>Java</b>, <b>ReactJS</b>, <b>NodeJS</b>) & desktop (<b>C#</b>, <b>JavaFX</b>) apps. I have over 16 years experience in software development and 2 years in Nanotechnology."
 	},
 	"theme": {
-		"url": "https://github.com/prakis/stringify.me-theme-card2"
+		"url": "https://github.com/Manasa/stringify.me-theme",
+		"background" :"#f98008"
 	}
 }
